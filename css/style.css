@@ -1,0 +1,184 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  margin-left: 150px;
+  margin-right: 20px;
+}
+
+.logo img {
+  width: 70px !important;
+  height: auto !important;
+  display: block !important;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.hotel-photo {
+  width: 100vw;
+  height: 400px;
+  object-fit: cover;
+  margin: 0;
+  position: relative;
+  top: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.card {
+  display: flex;
+  width: 90%;
+  max-width: 800px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-content {
+  padding: 20px;
+  flex: 1;
+}
+
+.card-image {
+  width: 300px;
+  height: auto;
+  object-fit: cover;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.explore-button {
+  background-color: #f0c040;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.explore-button:hover {
+  background-color: #e0b030;
+}
+
+footer {
+  background-color: #002d4b;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.footer-container {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer-left {
+  flex: 1;
+}
+
+.footer-left h1 {
+  font-size: 1.5em;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.footer-left p {
+  margin: 2px 0;
+  color: white;
+}
+
+.footer-right {
+  flex: 1;
+  text-align: right;
+}
+
+.footer-right nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer-right nav ul li {
+  margin-left: 20px;
+}
+
+.footer-right nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-right nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-right .social-media {
+  margin-top: 5px;
+}
+
+.footer-right .social-media p {
+  margin: 0;
+  color: white;
+}
+
+.footer-right .social-media ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-flex;
+}
+
+.footer-right .social-media ul li {
+  margin-left: 15px;
+}
+
+.footer-right .social-media a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-right .social-media a:hover {
+  text-decoration: underline;
+}
